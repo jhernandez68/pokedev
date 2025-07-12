@@ -1,6 +1,30 @@
 {
   "version": 4,
   "routes": {
+    "/contact": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/contact",
+      "dataRoute": "/contact.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/favicon.ico": {
       "initialHeaders": {
         "cache-control": "public, max-age=0, must-revalidate",
@@ -21,30 +45,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/favicon.ico",
       "dataRoute": null,
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services",
-      "dataRoute": "/services.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -78,7 +78,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/contact": {
+    "/services": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -91,8 +91,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/contact",
-      "dataRoute": "/contact.rsc",
+      "srcRoute": "/services",
+      "dataRoute": "/services.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -106,8 +106,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "51a7009cc3d9e33e1f7ab5fe6aa71a65",
-    "previewModeSigningKey": "e6f55f27d8bd7c74f1a7254b499f97e9bb75cb53a15d0d7366bbe6647a48c413",
-    "previewModeEncryptionKey": "65443d15ad7d05c170b24ead33c3999f74524b1bee54932d8afd7a4008fce735"
+    "previewModeId": "8b3e959a150b47dd3442fa4eb7e82e95",
+    "previewModeSigningKey": "4e98c8efa0c5594d4763104e2c5639f2b7bda222d2903b3afc781cef32367a39",
+    "previewModeEncryptionKey": "4e217e5c388afa2806fb21f8165de1bf64c24ceba31e8d217a8c8af7bc20251b"
   }
 }
