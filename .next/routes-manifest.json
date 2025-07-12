@@ -79,9 +79,9 @@
   "rewrites": {
     "beforeFiles": [
       {
-        "source": "/.//_next/:path+",
+        "source": "/pokedev//_next/:path+",
         "destination": "/_next/:path+",
-        "regex": "^/\\.//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
+        "regex": "^/pokedev//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
       }
     ],
     "afterFiles": [],
