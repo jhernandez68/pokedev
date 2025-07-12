@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 20, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/jstiv/OneDrive/Escritorio/PokeDev/pokedev-portfolio/public/icon.png.mjs%20%28structured%20image%20object%29"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 1024, height: 1024, blurDataURL: \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAIAAABLbSncAAAAx0lEQVR42hWM2woBURiF9+PJk4g7heI5RM6niQuUYzkVIgmJRjImc9hmZs/ec/QE/qn/4l/rW2shl+mebVBDPR62p+NeEp++Q34uRQ7TGFHXq1mrUeWatcVsYpnfANhUg++wW/e7nTbX2G1WQcMxEbgO1VRJKBVysWhkNOjBsm8TxAgGJr74cDiUTMSx/HYt3bMMZOoKxAFk0qnxsA/Shg2mISwLba5eqxTLxXwhn61XS8v5lOoKMvAH4vztfL+e4B73C0iL4D+xsZkSSQaOvgAAAABJRU5ErkJggg==\", blurWidth: 8, blurHeight: 8 }\n"],"names":[],"mappings":";;;AAAA;;uCACe;IAAE,KAAA,uGAAA,CAAA,UAAG;IAAE,OAAO;IAAM,QAAQ;IAAM,aAAa;IAAkX,WAAW;IAAG,YAAY;AAAE","debugId":null}}]
-}
