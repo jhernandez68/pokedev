@@ -46,7 +46,7 @@
         256,
         384
       ],
-      "path": "/_next/image/",
+      "path": "/pokedev/_next/image/",
       "loader": "default",
       "loaderFile": "",
       "domains": [],
@@ -69,9 +69,9 @@
       "pagesBufferLength": 5
     },
     "amp": {
-      "canonicalBase": ""
+      "canonicalBase": "/pokedev"
     },
-    "basePath": "",
+    "basePath": "/pokedev",
     "sassOptions": {},
     "trailingSlash": true,
     "i18n": null,

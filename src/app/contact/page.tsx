@@ -13,7 +13,7 @@ export default function Contact() {
       <ul className="social-list">
         <li><a href="https://www.facebook.com/profile.php?id=61571973494882" target="_blank" rel="noopener noreferrer"><FaFacebook />Facebook</a></li>
         <li><a href="https://www.instagram.com/pokedev2025/" target="_blank" rel="noopener noreferrer"><FaInstagram />Instagram</a></li>
-        <li><a href="#" target="_blank" rel="noopener noreferrer"><FaHome />Página principal (próximamente)</a></li>
+        <li><a href="/pokedev/" target="_blank" rel="noopener noreferrer"><FaHome />Página principal (próximamente)</a></li>
       </ul>
     </section>
   )

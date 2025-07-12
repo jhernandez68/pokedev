@@ -2,8 +2,16 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "",
+  "basePath": "/pokedev",
   "redirects": [
+    {
+      "source": "/pokedev",
+      "destination": "/pokedev/",
+      "basePath": false,
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^/pokedev$"
+    },
     {
       "source": "/:file((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+)/",
       "destination": "/:file",
@@ -80,7 +88,7 @@
     "beforeFiles": [
       {
         "source": "/pokedev//_next/:path+",
-        "destination": "/_next/:path+",
+        "destination": "/pokedev/_next/:path+",
         "regex": "^/pokedev//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
       }
     ],

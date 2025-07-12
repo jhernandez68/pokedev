@@ -36,7 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div className="footer-social">
                 <a href="https://www.facebook.com/profile.php?id=61571973494882" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
                 <a href="https://www.instagram.com/pokedev2025/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-                <a href="#" target="_blank" rel="noopener noreferrer"><FaHome />Página principal (próximamente)</a>
+                <a href="#" target="_blank" rel="noopener noreferrer"><FaHome /></a>
               </div>
             </div>
           </div>
@@ -46,5 +46,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </footer>
       </body>
     </html>
-  )
+)
 }

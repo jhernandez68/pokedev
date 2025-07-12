@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run clean && next build",
+    "build": "npm run clean && next build && npm run postbuild",
     "clean": "rm -rf docs out .nojekyll",
     "postbuild": "mv out docs && touch docs/.nojekyll",
     "start": "next start",
