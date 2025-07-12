@@ -1,9 +1,10 @@
-import type { NextConfig } from 'next'
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
+  output: "export",
   trailingSlash: true,
-  assetPrefix: '/pokedev/',
-}
+  basePath: "/pokedev",
+  assetPrefix: "/pokedev/",
+};
 
-export default nextConfig
+export default nextConfig;

@@ -49,9 +49,9 @@ export default function Header() {
 
       <aside className={`sidebar ${open ? 'open' : ''}`}>
         <ul>
-          <li><Link href="/" onClick={closeMenu}>Inicio</Link></li>
-          <li><Link href="/services" onClick={closeMenu}>Servicios</Link></li>
-          <li><Link href="/contact" onClick={closeMenu}>Contacto</Link></li>
+          <li><Link href="/pokedev/" onClick={closeMenu}>Inicio</Link></li>
+          <li><Link href="/pokedev/services" onClick={closeMenu}>Servicios</Link></li>
+          <li><Link href="/pokedev/contact" onClick={closeMenu}>Contacto</Link></li>
         </ul>
       </aside>
     </>
